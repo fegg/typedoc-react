@@ -1,0 +1,18 @@
+{
+    // 文档的标题
+    "name": "TypeDoc React Demo",
+    // 文档的输出路径 
+    "out": "./typedoc/docs/",
+    // 支持 JSX, TSX
+    "jsx": true,
+    // 文档结构化信息的配置 JSON
+    "json": "./typedoc/docs.json",
+    // 是否忽略没有导出的功能
+    "excludeNotExported": false,
+    "theme": "minimal",
+    // 给每一份类都生成一个文件
+    "mode": "file",
+    "version": true,
+    // 首页的内容说明
+    "readme": "./typedoc/README.md"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "typedoc-react",
+  "version": "1.0.0",
+  "description": "this is a demo",
+  "main": "index.js",
+  "scripts": {
+    "doc": "gulp watch:typedoc",
+    "ts": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^15.6.0",
+    "@types/react-dom": "^15.5.1",
+    "@types/typescript": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typedoc": "^2.0.2",
+    "json-comments": "^0.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "typedoc": "^0.8.0",
+    "typescript": "2.3.4"
+  }
+}

@@ -1,0 +1,2408 @@
+{
+	"id": 0,
+	"name": "TypeDoc React Demo",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 5,
+			"name": "App",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"shortText": "App 启动类"
+			},
+			"children": [
+				{
+					"id": 33,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 34,
+							"name": "new App",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 35,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "AppProps",
+										"id": 1
+									}
+								},
+								{
+									"id": 36,
+									"name": "context",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "App",
+								"id": 5
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.__constructor"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 238,
+							"character": 27
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.__constructor"
+					}
+				},
+				{
+					"id": 63,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 257,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.context"
+					}
+				},
+				{
+					"id": 59,
+					"name": "props",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 255,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"name": "Readonly",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 60,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 61,
+													"name": "children",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+															"line": 255,
+															"character": 34
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "ReactNode"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														61
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 255,
+													"character": 24
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"type": "reference",
+								"name": "Readonly",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "AppProps",
+										"id": 1
+									}
+								]
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.props"
+					}
+				},
+				{
+					"id": 64,
+					"name": "refs",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 258,
+							"character": 12
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 65,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"indexSignature": [
+								{
+									"id": 66,
+									"name": "__index",
+									"kind": 8192,
+									"kindString": "Index signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 67,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ReactInstance"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+									"line": 258,
+									"character": 13
+								}
+							]
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.refs"
+					}
+				},
+				{
+					"id": 62,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 256,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "Readonly",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.state"
+					}
+				},
+				{
+					"id": 54,
+					"name": "forceUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 55,
+							"name": "forceUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 56,
+									"name": "callBack",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 57,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 58,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 247,
+													"character": 30
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.forceUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 247,
+							"character": 19
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.forceUpdate"
+					}
+				},
+				{
+					"id": 6,
+					"name": "render",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 7,
+							"name": "render",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "Element"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Component.render"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "App.tsx",
+							"line": 19,
+							"character": 10
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "Component.render"
+					}
+				},
+				{
+					"id": 37,
+					"name": "setState",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 38,
+							"name": "setState",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"typeParameter": [
+								{
+									"id": 39,
+									"name": "K",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {},
+									"type": {
+										"type": "unknown",
+										"name": "keyof S"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 40,
+									"name": "f",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 41,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 42,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 43,
+															"name": "prevState",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															}
+														},
+														{
+															"id": 44,
+															"name": "props",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "AppProps",
+																"id": 1
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "Pick",
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															},
+															{
+																"type": "typeParameter",
+																"name": "K",
+																"constraint": {
+																	"type": "unknown",
+																	"name": "keyof S"
+																}
+															}
+														]
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 243,
+													"character": 38
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 45,
+									"name": "callback",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 46,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 47,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 243,
+													"character": 89
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.setState"
+							}
+						},
+						{
+							"id": 48,
+							"name": "setState",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"typeParameter": [
+								{
+									"id": 49,
+									"name": "K",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {},
+									"type": {
+										"type": "unknown",
+										"name": "keyof S"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 50,
+									"name": "state",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Pick",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "unknown",
+													"name": "keyof S"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 51,
+									"name": "callback",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 52,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 53,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 244,
+													"character": 65
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.setState"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 243,
+							"character": 16
+						},
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 244,
+							"character": 16
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.setState"
+					}
+				},
+				{
+					"id": 10,
+					"name": "componentDidMount",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 11,
+							"name": "componentDidMount",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentDidMount"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 318,
+							"character": 25
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentDidMount"
+					}
+				},
+				{
+					"id": 26,
+					"name": "componentDidUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "componentDidUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 28,
+									"name": "prevProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "AppProps",
+												"id": 1
+											}
+										]
+									}
+								},
+								{
+									"id": 29,
+									"name": "prevState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 30,
+									"name": "prevContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentDidUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 322,
+							"character": 26
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentDidUpdate"
+					}
+				},
+				{
+					"id": 8,
+					"name": "componentWillMount",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 9,
+							"name": "componentWillMount",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillMount"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 317,
+							"character": 26
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillMount"
+					}
+				},
+				{
+					"id": 12,
+					"name": "componentWillReceiveProps",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 13,
+							"name": "componentWillReceiveProps",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 14,
+									"name": "nextProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "AppProps",
+												"id": 1
+											}
+										]
+									}
+								},
+								{
+									"id": 15,
+									"name": "nextContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillReceiveProps"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 319,
+							"character": 33
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillReceiveProps"
+					}
+				},
+				{
+					"id": 31,
+					"name": "componentWillUnmount",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 32,
+							"name": "componentWillUnmount",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillUnmount"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 323,
+							"character": 28
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillUnmount"
+					}
+				},
+				{
+					"id": 21,
+					"name": "componentWillUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 22,
+							"name": "componentWillUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 23,
+									"name": "nextProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "AppProps",
+												"id": 1
+											}
+										]
+									}
+								},
+								{
+									"id": 24,
+									"name": "nextState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 25,
+									"name": "nextContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 321,
+							"character": 27
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillUpdate"
+					}
+				},
+				{
+					"id": 16,
+					"name": "shouldComponentUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 17,
+							"name": "shouldComponentUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 18,
+									"name": "nextProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "AppProps",
+												"id": 1
+											}
+										]
+									}
+								},
+								{
+									"id": 19,
+									"name": "nextState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 20,
+									"name": "nextContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.shouldComponentUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 320,
+							"character": 29
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.shouldComponentUpdate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						33
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						63,
+						59,
+						64,
+						62
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						54,
+						6,
+						37,
+						10,
+						26,
+						8,
+						12,
+						31,
+						21,
+						16
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "App.tsx",
+					"line": 18,
+					"character": 9
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "Component",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "AppProps",
+							"id": 1
+						},
+						{
+							"type": "intrinsic",
+							"name": "any"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 68,
+			"name": "Home",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"shortText": "主页"
+			},
+			"children": [
+				{
+					"id": 96,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 97,
+							"name": "new Home",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 98,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 99,
+									"name": "context",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Home",
+								"id": 68
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.__constructor"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 238,
+							"character": 27
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.__constructor"
+					}
+				},
+				{
+					"id": 126,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 257,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.context"
+					}
+				},
+				{
+					"id": 122,
+					"name": "props",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 255,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"name": "Readonly",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 123,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 124,
+													"name": "children",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+															"line": 255,
+															"character": 34
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "ReactNode"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														124
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 255,
+													"character": 24
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"type": "reference",
+								"name": "Readonly",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								]
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.props"
+					}
+				},
+				{
+					"id": 127,
+					"name": "refs",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 258,
+							"character": 12
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 128,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"indexSignature": [
+								{
+									"id": 129,
+									"name": "__index",
+									"kind": 8192,
+									"kindString": "Index signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 130,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ReactInstance"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+									"line": 258,
+									"character": 13
+								}
+							]
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.refs"
+					}
+				},
+				{
+					"id": 125,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 256,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "Readonly",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.state"
+					}
+				},
+				{
+					"id": 117,
+					"name": "forceUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 118,
+							"name": "forceUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 119,
+									"name": "callBack",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 120,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 121,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 247,
+													"character": 30
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.forceUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 247,
+							"character": 19
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.forceUpdate"
+					}
+				},
+				{
+					"id": 69,
+					"name": "render",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 70,
+							"name": "render",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "Element"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Component.render"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Home.tsx",
+							"line": 5,
+							"character": 10
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "Component.render"
+					}
+				},
+				{
+					"id": 100,
+					"name": "setState",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 101,
+							"name": "setState",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"typeParameter": [
+								{
+									"id": 102,
+									"name": "K",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {},
+									"type": {
+										"type": "unknown",
+										"name": "keyof S"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 103,
+									"name": "f",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 104,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 105,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 106,
+															"name": "prevState",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															}
+														},
+														{
+															"id": 107,
+															"name": "props",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "Pick",
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															},
+															{
+																"type": "typeParameter",
+																"name": "K",
+																"constraint": {
+																	"type": "unknown",
+																	"name": "keyof S"
+																}
+															}
+														]
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 243,
+													"character": 38
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 108,
+									"name": "callback",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 109,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 110,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 243,
+													"character": 89
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.setState"
+							}
+						},
+						{
+							"id": 111,
+							"name": "setState",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"typeParameter": [
+								{
+									"id": 112,
+									"name": "K",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {},
+									"type": {
+										"type": "unknown",
+										"name": "keyof S"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 113,
+									"name": "state",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Pick",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "unknown",
+													"name": "keyof S"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 114,
+									"name": "callback",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 115,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 116,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+													"line": 244,
+													"character": 65
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Component.setState"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 243,
+							"character": 16
+						},
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 244,
+							"character": 16
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Component.setState"
+					}
+				},
+				{
+					"id": 73,
+					"name": "componentDidMount",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 74,
+							"name": "componentDidMount",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentDidMount"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 318,
+							"character": 25
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentDidMount"
+					}
+				},
+				{
+					"id": 89,
+					"name": "componentDidUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 90,
+							"name": "componentDidUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 91,
+									"name": "prevProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 92,
+									"name": "prevState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 93,
+									"name": "prevContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentDidUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 322,
+							"character": 26
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentDidUpdate"
+					}
+				},
+				{
+					"id": 71,
+					"name": "componentWillMount",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 72,
+							"name": "componentWillMount",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillMount"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 317,
+							"character": 26
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillMount"
+					}
+				},
+				{
+					"id": 75,
+					"name": "componentWillReceiveProps",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 76,
+							"name": "componentWillReceiveProps",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 77,
+									"name": "nextProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 78,
+									"name": "nextContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillReceiveProps"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 319,
+							"character": 33
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillReceiveProps"
+					}
+				},
+				{
+					"id": 94,
+					"name": "componentWillUnmount",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 95,
+							"name": "componentWillUnmount",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillUnmount"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 323,
+							"character": 28
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillUnmount"
+					}
+				},
+				{
+					"id": 84,
+					"name": "componentWillUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 85,
+							"name": "componentWillUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 86,
+									"name": "nextProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 87,
+									"name": "nextState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 88,
+									"name": "nextContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.componentWillUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 321,
+							"character": 27
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.componentWillUpdate"
+					}
+				},
+				{
+					"id": 79,
+					"name": "shouldComponentUpdate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isStatic": true,
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 80,
+							"name": "shouldComponentUpdate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 81,
+									"name": "nextProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 82,
+									"name": "nextState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Readonly",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 83,
+									"name": "nextContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ComponentLifecycle.shouldComponentUpdate"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "/Users/lulin/Desktop/sky-typedoc/typedoc-react/node_modules/@types/react/index.d.ts",
+							"line": 320,
+							"character": 29
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ComponentLifecycle.shouldComponentUpdate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						96
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						126,
+						122,
+						127,
+						125
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						117,
+						69,
+						100,
+						73,
+						89,
+						71,
+						75,
+						94,
+						84,
+						79
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "Home.tsx",
+					"line": 4,
+					"character": 10
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "Component",
+					"typeArguments": [
+						{
+							"type": "intrinsic",
+							"name": "any"
+						},
+						{
+							"type": "intrinsic",
+							"name": "any"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "AppProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"shortText": "App Props"
+			},
+			"children": [
+				{
+					"id": 4,
+					"name": "desc",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "App.tsx",
+							"line": 12,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 2,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "App 名字"
+					},
+					"sources": [
+						{
+							"fileName": "App.tsx",
+							"line": 8,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 3,
+					"name": "version",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "App.tsx",
+							"line": 10,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						4,
+						2,
+						3
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "App.tsx",
+					"line": 4,
+					"character": 18
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Classes",
+			"kind": 128,
+			"children": [
+				5,
+				68
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				1
+			]
+		}
+	]
+}
